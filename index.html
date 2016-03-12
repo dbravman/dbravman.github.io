@@ -1,8 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Game Night!</title>
 </head>
 <body>
+<h1>Board Games</h1>
+<img src="https://en.wikipedia.org/wiki/Eurogame#/media/File:Carcassonne_Miples.jpg">
+<p>Games are a fun way to relax with friends on nights and weekends.  Especially with pizza!</p>
+<h2>Collections</h2>
+	<table border="1">
+		<tr><th><em>Game</em></th><th>Owned by Danny</th><th>Owned by Friends</th></tr>
+		<tr><td><em>7 Wonders</em></td><td>X</td><td></td></tr>
+		<tr><td><em>Avalon</em></td><td>X</td><td>X</td></tr>
+		<tr><td><em>Carcassonne</em></td><td></td><td>X</td></tr>
+		<tr><td><em>Dominion</em></td><td>X</td><td>X</td></tr>
+		<tr><td><em>Lords of Waterdeep</em></td><td>X</td><td></td></tr>
+		<tr><td><em>Pandemic</em></td><td></td><td>X</td></tr>
+		<tr><td><em>Settlers of Catan</em></td><td></td><td>X</td></tr>
+	</table>
+	
+	<nav>
+		<a href="lastgame.html">Last game played</a>
+	</nav>
+
+	<form action="scheduled.html" method="post">
+		<fieldset>
+		<h2>Scheduler</h2>
+			<div>
+				<label>Choose a date:</label>
+				<input type="date" name="date" placeholder="m/d/yy">
+			</div>
+			<div>
+				<label>Choose a game:</label>
+				<select name="game">
+					<option value="7 Wonders">7 Wonders</option>
+					<option value="Avalon">Avalon</option>
+					<option value="Clue">Clue</option>
+					<option value="Dominion">Dominion</option>
+					<option value="Lords of Waterdeep">Lords of Waterdeep</option>
+					<option value="Pandemic">Pandemic</option>
+					<option value="Settlers of Catan">Settlers of Catan</option>
+				</select>
+			</div>
+			<div>
+				<button type="submit">Let's Play!</button>
+			</div>
+		</fieldset>
+	</form>
 </body>
+
+<h2>Other sites</h2>
+	<ul>
+		<li><a href="http://boardgamegeek.com">Boardgamegeek</a>: reviews and forums</li>
+		<li><a href="http://www.amazon.com/s/ref=sr_nr_p_n_age_range_4?fst=as%3Aoff&rh=n%3A165793011%2Cn%3A%21165795011%2Cn%3A166220011%2Cn%3A166225011%2Cp_n_age_range%3A5442388011&bbn=166225011&ie=UTF8&qid=1457744564&rnid=165794011">Amazon</a>: buy games online</li>
+		<li><a href="http://www.chicagolandgames.com">Dice Dojo</a>: demo and buy games locally</li>
+	</ul>
 </html>

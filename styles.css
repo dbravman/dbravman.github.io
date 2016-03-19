@@ -1,3 +1,63 @@
 body {
-	background: blue;
+	min-width: 220px;
+}
+
+h1, h2 {
+	padding: 20px;
+	border: 5px solid orange;
+	color: orange;
+	background-color: blue;
+	text-align: center;
+}
+
+img {
+	display: block;
+	max-width: 320px;
+	max-height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caption {
+	display: block;
+	position: relative;
+	text-align: right;
+	font-size: 9px;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav, button {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+tr {
+	text-align: center;
+}
+
+.with-background {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Carcassonne_Miples.jpg/800px-Carcassonne_Miples.jpg");
+	color: orange;
+	font-size: 20px;
+}
+
+#old-font {
+	font-family: Century, Times;
+}
+
+a:visited {
+	color: #cc6600;
+}
+
+@media screen and (max-width: 350px) {
+	h1, h2 {
+		font-size: 16px;
+	}
+
+	img {
+		max-width: 200px;
+		max-height: 300px;
+	}
 }
